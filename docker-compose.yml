@@ -120,7 +120,6 @@ services:
       - ACCELERATE=False
       - TF_ENABLE_ONEDNN_OPTS=1
       - USE_MEMORY_EFFICIENT_ATTENTION=0
-      - DISPLAY=unix$DISPLAY
       - NO_TCMALLOC="True"
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
@@ -137,7 +136,6 @@ services:
       - ACCELERATE=False
       - TF_ENABLE_ONEDNN_OPTS=1
       - USE_MEMORY_EFFICIENT_ATTENTION=0
-      - DISPLAY=unix$DISPLAY
       - NO_TCMALLOC="True"
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
